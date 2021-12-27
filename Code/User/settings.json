@@ -1,13 +1,11 @@
 {
     "files.autoSave": "afterDelay",
-    "tabnine.experimentalAutoImports": true,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "bracket-pair-colorizer-2.depreciation-notice": false,
-    "bracketPairColorizer.depreciation-notice": false,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -49,5 +47,12 @@
     "explorer.confirmDelete": false,
     "editor.fontSize": 13,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Webstorm Darcula"
+    "workbench.colorTheme": "Webstorm Darcula",
+    "editor.minimap.enabled": false,
+    "[scss]": {
+        "editor.defaultFormatter": "MikeBovenlander.formate"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "html.hover.documentation": false,
+    "window.menuBarVisibility": "toggle",
 }
