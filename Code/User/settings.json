@@ -41,13 +41,10 @@
             }
         ]
     },
-    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "workbench.welcomePage.preferReducedMotion": true,
     "workbench.startupEditor": "none",
     "explorer.confirmDelete": false,
-    "editor.fontSize": 13,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Webstorm Darcula",
     "editor.minimap.enabled": false,
     "[scss]": {
         "editor.defaultFormatter": "MikeBovenlander.formate"
@@ -55,4 +52,9 @@
     "bracketPairColorizer.depreciation-notice": false,
     "html.hover.documentation": false,
     "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "JetBrains Mono, Droid Sans Mono, monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 22,
+    "editor.fontWeight": "300",
+    "workbench.colorTheme": "Webstorm Darcula",
 }
