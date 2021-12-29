@@ -1,15 +1,15 @@
 code --install-extension aliariff.auto-add-brackets
-code --install-extension Atishay-Jain.All-Autocomplete
-code --install-extension AubreyFalconer.aub-darcula
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension felixfbecker.php-debug
+code --install-extension fnando.switch-case
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension gencer.html-slim-scss-css-class-completion
+code --install-extension hjb2012.vscode-es6-string-html
 code --install-extension imekachi.webstorm-darcula
 code --install-extension jaguadoromero.vscode-php-create-class
 code --install-extension jenkey2011.string-highlight
@@ -22,7 +22,7 @@ code --install-extension MikeBovenlander.formate
 code --install-extension mrmlnc.vscode-apache
 code --install-extension mrmlnc.vscode-scss
 code --install-extension PKief.material-icon-theme
-code --install-extension shinichi-takii.sql-bigquery
+code --install-extension PranshuAgrawal.toggle-case
 code --install-extension SimonSiefke.svg-preview
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension voldemortensen.rainbow-tags
