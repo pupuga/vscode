@@ -5,7 +5,6 @@
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "bracket-pair-colorizer-2.depreciation-notice": false,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -41,6 +40,7 @@
             }
         ]
     },
+    "workbench.editor.enablePreview": true,
     "workbench.welcomePage.preferReducedMotion": true,
     "workbench.startupEditor": "none",
     "explorer.confirmDelete": false,
@@ -57,4 +57,7 @@
     "editor.lineHeight": 22,
     "editor.fontWeight": "300",
     "workbench.colorTheme": "Webstorm Darcula",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.enablePreview": false 
 }
