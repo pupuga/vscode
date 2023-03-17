@@ -27,6 +27,7 @@ code --install-extension PKief.material-icon-theme
 code --install-extension rangav.vscode-thunder-client
 code --install-extension redhat.vscode-yaml
 code --install-extension SimonSiefke.svg-preview
+code --install-extension usernamehw.errorlens
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension VisualStudioExptTeam.intellicode-api-usage-examples
 code --install-extension VisualStudioExptTeam.vscodeintellicode
