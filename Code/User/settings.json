@@ -67,7 +67,7 @@
 	"prettier.singleQuote": true,
 	"prettier.jsxSingleQuote": true,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": true
+		"source.organizeImports": "explicit"
 	},
 	"editor.inlineSuggest.enabled": true,
 
@@ -80,5 +80,8 @@
 	"typescript.suggest.paths": false,
 	"javascript.suggest.paths": false,
 	"githd.blameView.enabled": false,
-	"workbench.colorTheme": "Webstorm Darcula"
+	"workbench.colorTheme": "Webstorm Darcula",
+	"RainbowBrackets.depreciation-notice": false,
+	"diffEditor.experimental.showMoves": true,
+	"multiDiffEditor.experimental.enabled": true
 }
