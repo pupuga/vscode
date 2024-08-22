@@ -40,17 +40,10 @@
 			}
 		]
 	},
-	"editor.bracketPairColorization.enabled": false,
-	"workbench.editor.enablePreview": true,
-	"workbench.welcomePage.preferReducedMotion": true,
+	"editor.bracketPairColorization.enabled": true,
 	"workbench.startupEditor": "none",
 	"explorer.confirmDelete": false,
-	"workbench.iconTheme": "material-icon-theme",
 	"editor.minimap.enabled": false,
-	"[scss]": {
-		"editor.defaultFormatter": "MikeBovenlander.formate"
-	},
-	"bracketPairColorizer.depreciation-notice": false,
 	"html.hover.documentation": false,
 	"window.menuBarVisibility": "toggle",
 	"editor.fontFamily": "JetBrains Mono, Droid Sans Mono, monospace",
@@ -60,7 +53,6 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"window.openFilesInNewWindow": "on",
 	"workbench.editor.enablePreview": false,
-
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
@@ -70,7 +62,6 @@
 		"source.organizeImports": "explicit"
 	},
 	"editor.inlineSuggest.enabled": true,
-
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.preferences.quoteStyle": "single",
@@ -79,9 +70,16 @@
 	"typescript.format.semicolons": "remove",
 	"typescript.suggest.paths": false,
 	"javascript.suggest.paths": false,
-	"githd.blameView.enabled": false,
-	"workbench.colorTheme": "Webstorm Darcula",
-	"RainbowBrackets.depreciation-notice": false,
 	"diffEditor.experimental.showMoves": true,
-	"multiDiffEditor.experimental.enabled": true
+	"multiDiffEditor.experimental.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"rainbow_csv.enable_sticky_header": false,
+	"workbench.tree.enableStickyScroll": false,
+	"editor.stickyScroll.enabled": false,
+	"playwright.reuseBrowser": false,
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"workbench.colorTheme": "Webstorm Darcula 2022"
 }
