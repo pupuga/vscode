@@ -1,58 +1,58 @@
-code --install-extension atommaterial.a-file-icon-vscode
-code --install-extension bmewburn.vscode-intelephense-client
-code --install-extension bradlc.vscode-tailwindcss
-code --install-extension christian-kohler.npm-intellisense
-code --install-extension christian-kohler.path-intellisense
-code --install-extension claudiosanches.woocommerce
-code --install-extension closemarketing.wp-development-toolbox
-code --install-extension co6x0.vscode-wp-block-html
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension dzhavat.css-flexbox-cheatsheet
-code --install-extension ecmel.vscode-html-css
-code --install-extension ediamin.wp-block-theme-companion
-code --install-extension esbenp.prettier-vscode
-code --install-extension formulahendry.auto-close-tag
-code --install-extension formulahendry.auto-rename-tag
-code --install-extension gabrielrose.wordpress-theme-json-css-autosuggest
-code --install-extension graphql.vscode-graphql-syntax
-code --install-extension humao.rest-client
-code --install-extension imekachi.webstorm-darcula
-code --install-extension johnbillion.vscode-wordpress-hooks
-code --install-extension jonnythemonke.tw-breakpoint
-code --install-extension jostytafur.css-through-html
-code --install-extension k--kato.intellij-idea-keybindings
-code --install-extension kisstkondoros.vscode-gutter-preview
-code --install-extension matthiashunt.wordpress-syntax-highlighter
-code --install-extension mechatroner.rainbow-csv
-code --install-extension mgmcdermott.vscode-language-babel
-code --install-extension mikestead.dotenv
-code --install-extension mongodb.mongodb-vscode
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-playwright.playwright
-code --install-extension ms-vscode-remote.remote-containers
-code --install-extension ms-vscode.vscode-typescript-next
-code --install-extension msjsdiag.vscode-react-native
-code --install-extension neilbrayfield.php-docblocker
-code --install-extension onecentlin.laravel5-snippets
-code --install-extension outofsync42.inline-css-color
-code --install-extension porifa.laravel-intelephense
-code --install-extension pucelle.vscode-css-navigation
-code --install-extension pushqrdx.inline-html
-code --install-extension redhat.vscode-xml
-code --install-extension redhat.vscode-yaml
-code --install-extension renesaarsoo.sql-formatter-vsc
-code --install-extension simonsiefke.svg-preview
-code --install-extension tobermory.es6-string-html
-code --install-extension unifiedjs.vscode-mdx
-code --install-extension usernamehw.errorlens
-code --install-extension valeryanm.vscode-phpsab
-code --install-extension visualstudioexptteam.intellicode-api-usage-examples
-code --install-extension visualstudioexptteam.vscodeintellicode
-code --install-extension vunguyentuan.vscode-css-variables
-code --install-extension waderyan.gitblame
-code --install-extension wordpresstoolbox.wordpress-toolbox
-code --install-extension xdebug.php-debug
-code --install-extension xyz.local-history
-code --install-extension yoavbls.pretty-ts-errors
-code --install-extension yogensia.searchwpdocs
-code --install-extension zjffun.html-tree
+code --install-extension atommaterial.a-file-icon-vscode --force
+code --install-extension bmewburn.vscode-intelephense-client --force
+code --install-extension bradlc.vscode-tailwindcss --force
+code --install-extension christian-kohler.npm-intellisense --force
+code --install-extension christian-kohler.path-intellisense --force
+code --install-extension claudiosanches.woocommerce --force
+code --install-extension closemarketing.wp-development-toolbox --force
+code --install-extension co6x0.vscode-wp-block-html --force
+code --install-extension dbaeumer.vscode-eslint --force
+code --install-extension dzhavat.css-flexbox-cheatsheet --force
+code --install-extension ecmel.vscode-html-css --force
+code --install-extension ediamin.wp-block-theme-companion --force
+code --install-extension esbenp.prettier-vscode --force
+code --install-extension formulahendry.auto-close-tag --force
+code --install-extension formulahendry.auto-rename-tag --force
+code --install-extension gabrielrose.wordpress-theme-json-css-autosuggest --force
+code --install-extension graphql.vscode-graphql-syntax --force
+code --install-extension humao.rest-client --force
+code --install-extension imekachi.webstorm-darcula --force
+code --install-extension johnbillion.vscode-wordpress-hooks --force
+code --install-extension jonnythemonke.tw-breakpoint --force
+code --install-extension jostytafur.css-through-html --force
+code --install-extension k--kato.intellij-idea-keybindings --force
+code --install-extension kisstkondoros.vscode-gutter-preview --force
+code --install-extension matthiashunt.wordpress-syntax-highlighter --force
+code --install-extension mechatroner.rainbow-csv --force
+code --install-extension mgmcdermott.vscode-language-babel --force
+code --install-extension mikestead.dotenv --force
+code --install-extension mongodb.mongodb-vscode --force
+code --install-extension ms-azuretools.vscode-docker --force
+code --install-extension ms-playwright.playwright --force
+code --install-extension ms-vscode-remote.remote-containers --force
+code --install-extension ms-vscode.vscode-typescript-next --force
+code --install-extension msjsdiag.vscode-react-native --force
+code --install-extension neilbrayfield.php-docblocker --force
+code --install-extension onecentlin.laravel5-snippets --force
+code --install-extension outofsync42.inline-css-color --force
+code --install-extension porifa.laravel-intelephense --force
+code --install-extension pucelle.vscode-css-navigation --force
+code --install-extension pushqrdx.inline-html --force
+code --install-extension redhat.vscode-xml --force
+code --install-extension redhat.vscode-yaml --force
+code --install-extension renesaarsoo.sql-formatter-vsc --force
+code --install-extension simonsiefke.svg-preview --force
+code --install-extension tobermory.es6-string-html --force
+code --install-extension unifiedjs.vscode-mdx --force
+code --install-extension usernamehw.errorlens --force
+code --install-extension valeryanm.vscode-phpsab --force
+code --install-extension visualstudioexptteam.intellicode-api-usage-examples --force
+code --install-extension visualstudioexptteam.vscodeintellicode --force
+code --install-extension vunguyentuan.vscode-css-variables --force
+code --install-extension waderyan.gitblame --force
+code --install-extension wordpresstoolbox.wordpress-toolbox --force
+code --install-extension xdebug.php-debug --force
+code --install-extension xyz.local-history --force
+code --install-extension yoavbls.pretty-ts-errors --force
+code --install-extension yogensia.searchwpdocs --force
+code --install-extension zjffun.html-tree --force
