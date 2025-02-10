@@ -6,6 +6,7 @@ code --install-extension dbaeumer.vscode-eslint --force
 code --install-extension esbenp.prettier-vscode --force
 code --install-extension graphql.vscode-graphql-syntax --force
 code --install-extension johnbillion.vscode-wordpress-hooks --force
+code --install-extension k--kato.intellij-idea-keybindings --force
 code --install-extension laravel.vscode-laravel --force
 code --install-extension matthiashunt.wordpress-syntax-highlighter --force
 code --install-extension mongodb.mongodb-vscode --force
