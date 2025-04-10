@@ -1,8 +1,24 @@
+#!/bin/bash
+
+# Make create_settings.sh executable
+chmod +x ./create_settings.sh
+
+# Run the create_settings.sh to generate settings.json in the .vscode directory
+echo "Running create_settings.sh to generate settings.json..."
+./create_settings.sh
+
+# Move settings.json to VSCode User directory
+mv ./.vscode/settings.json ~/.config/Code/User/settings.json
+rm -rf .vscode
+echo "settings.json is now located in ~/.config/Code/User/settings.json..."
+
+# Installing VS Code extensions
 code --install-extension anan.jetbrains-darcula-theme --force
 code --install-extension atommaterial.a-file-icon-vscode --force
 code --install-extension bmewburn.vscode-intelephense-client --force
 code --install-extension bradlc.vscode-tailwindcss --force
 code --install-extension dbaeumer.vscode-eslint --force
+code --install-extension docker.docker --force
 code --install-extension esbenp.prettier-vscode --force
 code --install-extension graphql.vscode-graphql-syntax --force
 code --install-extension johnbillion.vscode-wordpress-hooks --force
@@ -28,3 +44,13 @@ code --install-extension unifiedjs.vscode-mdx --force
 code --install-extension visualstudioexptteam.intellicode-api-usage-examples --force
 code --install-extension visualstudioexptteam.vscodeintellicode --force
 code --install-extension xdebug.php-debug --force
+
+# Installing JetBrainsMono-Regular.ttf font if not already installed
+if ! fc-list | grep -qi 'JetBrainsMono-Regular'; then
+  echo 'Installing JetBrains Mono font...'
+  sudo cp ./JetBrainsMono-Regular.ttf /usr/share/fonts/truetype/
+  sudo fc-cache -fv
+else
+  echo 'JetBrains Mono font is already installed.'
+fi
+

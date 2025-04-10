@@ -1,4 +1,0 @@
-code --list-extensions | xargs -L 1 -I{} echo "code --install-extension {} --force" > install
-
-sudo cp ~/.config/Code/User/settings.json ./
-sudo cp ./settings.json ~/.config/Code/User/
