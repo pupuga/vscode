@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Don't forget to make the build_install.sh script executable:
-# chmod +x build_install.sh
+# Don't forget to make the install_vscode.sh script executable:
+# chmod +x install_vscode.sh
 
 # This script generates a script to install all currently installed VS Code extensions.
 # It outputs the installation commands to a new script file and makes it executable.
@@ -13,19 +13,38 @@
 echo "#!/bin/bash" > install_vscode.sh
 echo "" >> install_vscode.sh
 
+# Reminder to make install_vscode.sh executable
+echo "# Don't forget to make the install_vscode.sh script executable" >> install_vscode.sh
+echo "# chmod +x install_vscode.sh" >> install_vscode.sh
+echo "" >> install_vscode.sh
+
 echo "# Make create_settings.sh executable" >> install_vscode.sh
 echo "chmod +x ./create_settings.sh" >> install_vscode.sh
 echo "" >> install_vscode.sh
 
-echo "# Run the create_settings.sh to generate settings.json in the .vscode directory" >> install_vscode.sh
+echo "# Run the create_settings.sh to generate settings.json in the .config directory" >> install_vscode.sh
 echo "echo \"Running create_settings.sh to generate settings.json...\"" >> install_vscode.sh
 echo "./create_settings.sh" >> install_vscode.sh
 echo "" >> install_vscode.sh
 
-echo "# Move settings.json to VSCode User directory" >> install_vscode.sh
+echo "# Make create_configs.sh executable" >> install_vscode.sh
+echo "chmod +x ./create_configs.sh" >> install_vscode.sh
+echo "" >> install_vscode.sh
+
+echo "# Run the create_configs.sh to generate the necessary configurations" >> install_vscode.sh
+echo "echo \"Running create_configs.sh to generate the necessary configurations...\"" >> install_vscode.sh
+echo "./create_configs.sh" >> install_vscode.sh
+echo "" >> install_vscode.sh
+
+# Move .config directory to ~/.config/Code/User
+echo "# Move .config directory to ~/.config/Code/User" >> install_vscode.sh
+echo "mv ./.config ~/.config/Code/User" >> install_vscode.sh
+echo "" >> install_vscode.sh
+
+# Move settings.json from .vscode to ~/.config/Code/User
+echo "# Move settings.json from .vscode to ~/.config/Code/User" >> install_vscode.sh
 echo "mv ./.vscode/settings.json ~/.config/Code/User/settings.json" >> install_vscode.sh
-echo "rm -rf .vscode" >> install_vscode.sh
-echo "echo \"settings.json is now located in ~/.config/Code/User/settings.json...\"" >> install_vscode.sh
+echo "rm -rf ./.vscode" >> install_vscode.sh
 echo "" >> install_vscode.sh
 
 echo "# Installing VS Code extensions" >> install_vscode.sh

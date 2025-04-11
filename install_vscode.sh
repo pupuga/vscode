@@ -1,19 +1,30 @@
 #!/bin/bash
 
+# Don't forget to make the install_vscode.sh script executable
+# chmod +x install_vscode.sh
+
 # Make create_settings.sh executable
 chmod +x ./create_settings.sh
 
-# Run the create_settings.sh to generate settings.json in the .vscode directory
+# Run the create_settings.sh to generate settings.json in the .config directory
 echo "Running create_settings.sh to generate settings.json..."
 ./create_settings.sh
 
-# Move settings.json to VSCode User directory
+# Make create_configs.sh executable
+chmod +x ./create_configs.sh
+
+# Run the create_configs.sh to generate the necessary configurations
+echo "Running create_configs.sh to generate the necessary configurations..."
+./create_configs.sh
+
+# Move .config directory to ~/.config/Code/User
+mv ./.config ~/.config/Code/User
+
+# Move settings.json from .vscode to ~/.config/Code/User
 mv ./.vscode/settings.json ~/.config/Code/User/settings.json
-rm -rf .vscode
-echo "settings.json is now located in ~/.config/Code/User/settings.json..."
+rm -rf ./.vscode
 
 # Installing VS Code extensions
-code --install-extension anan.jetbrains-darcula-theme --force
 code --install-extension atommaterial.a-file-icon-vscode --force
 code --install-extension bmewburn.vscode-intelephense-client --force
 code --install-extension bradlc.vscode-tailwindcss --force
@@ -38,6 +49,7 @@ code --install-extension ms-vscode-remote.remote-containers --force
 code --install-extension ms-vscode.vscode-typescript-next --force
 code --install-extension msjsdiag.vscode-react-native --force
 code --install-extension msjsdiag.vscode-react-native-preview --force
+code --install-extension oasin.theme-dark-plus-darcula --force
 code --install-extension redhat.vscode-xml --force
 code --install-extension redhat.vscode-yaml --force
 code --install-extension unifiedjs.vscode-mdx --force
