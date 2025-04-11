@@ -1,13 +1,3 @@
-#!/bin/bash
-
-# Target config path for VSCode global settings
-CONFIG_DIR="$HOME/.config/Code/User/.config"
-
-# Create the directory if it doesn't exist
-mkdir -p "$CONFIG_DIR"
-
-# Create the .eslintrc.json file
-cat <<EOL > "$CONFIG_DIR/.eslintrc.json"
 {
   "env": {
     "browser": true,
@@ -44,16 +34,3 @@ cat <<EOL > "$CONFIG_DIR/.eslintrc.json"
     }
   }
 }
-EOL
-
-# Create the .prettierrc file
-cat <<EOL > "$CONFIG_DIR/.prettierrc"
-{
-  "singleQuote": true,
-  "semi": false,
-  "jsxSingleQuote": true,
-  "useTabs": true
-}
-EOL
-
-echo "Configuration files created in: $CONFIG_DIR"

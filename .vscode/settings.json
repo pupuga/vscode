@@ -1,25 +1,10 @@
-#!/bin/bash
-
-# Run the following command to give the script execute permissions:
-# chmod +x create_settings.sh
-
-# Use the current directory of the script
-PROJECT_ROOT="$(pwd)"
-
-# Define the global .config directory (replace with your actual path if needed)
-CONFIG_DIR="$HOME/.config/Code/User/.config"
-
-# Create the .vscode directory inside the project root
-mkdir -p "$PROJECT_ROOT/.vscode"
-
-# Define the content for settings.json with the corrected global paths
-SETTINGS_CONTENT='{
+{
   "editor.fontFamily": "JetBrains Mono, Consolas, Courier New, monospace",
   "editor.fontSize": 13,
   "editor.lineHeight": 22,
   "editor.fontWeight": "300",
-  "eslint.configFile": "'$CONFIG_DIR'/.eslintrc.json",
-  "prettier.configPath": "'$CONFIG_DIR'/.prettierrc",
+  "eslint.configFile": "/home/shandor/.config/Code/User/.eslintrc.json",
+  "prettier.configPath": "/home/shandor/.config/Code/User/.prettierrc",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
@@ -99,7 +84,7 @@ SETTINGS_CONTENT='{
         }
       },
       {
-        "name": "Disable italic for 'length' property",
+        "name": "Disable italic for length property",
         "scope": [
           "property.readonly"
         ],
@@ -145,10 +130,4 @@ SETTINGS_CONTENT='{
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   }
-}'
-
-# Create the .vscode/settings.json file with the provided content
-echo "$SETTINGS_CONTENT" > "$PROJECT_ROOT/.vscode/settings.json"
-
-# Print success message
-echo "VSCode settings have been updated successfully."
+}
