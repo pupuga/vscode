@@ -9,15 +9,17 @@ chmod +x ./install_plugins.sh
 # Running install_plugins.sh
 ./install_plugins.sh
 
-# Move files to ~/.config/Code/User
+# Copy VSCode config files
 cp -a ./.config/. ~/.config/Code/User/
 cp -a ./.vscode/. ~/.config/Code/User/
 
 # Installing JetBrainsMono-Regular.ttf font if not already installed
-if ! fc-list | grep -qi 'JetBrainsMono-Regular'; then
-  echo 'Installing JetBrains Mono font...'
-  sudo cp ./JetBrainsMono-Regular.ttf /usr/share/fonts/truetype/
-  sudo fc-cache -fv
+FONT_NAME="JetBrainsMono-Regular.ttf"
+FONT_DIR="$HOME/Library/Fonts"
+
+if [ ! -f "$FONT_DIR/$FONT_NAME" ]; then
+  echo "Installing JetBrains Mono font..."
+  cp "./$FONT_NAME" "$FONT_DIR"
 else
-  echo 'JetBrains Mono font is already installed.'
+  echo "JetBrains Mono font is already installed."
 fi
