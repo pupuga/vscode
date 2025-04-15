@@ -15,6 +15,7 @@ Follow these steps to install and configure Visual Studio Code with the provided
 2. You have to change {{name}} to your user name in the /.vscode/settings.json file:
 
    "eslint.configFile": "/home/{{name}}/.config/Code/User/.eslintrc.json"
+
    "prettier.configPath": "/home/{{name}}/.config/Code/User/.prettierrc"
 
 
