@@ -1,11 +1,13 @@
 #!/bin/bash
 
+code --install-extension akopachov.change-case-ex --force
 code --install-extension atommaterial.a-file-icon-vscode --force
 code --install-extension bmewburn.vscode-intelephense-client --force
 code --install-extension bradlc.vscode-tailwindcss --force
 code --install-extension dbaeumer.vscode-eslint --force
 code --install-extension docker.docker --force
 code --install-extension esbenp.prettier-vscode --force
+code --install-extension finntenzor.change-case --force
 code --install-extension graphql.vscode-graphql-syntax --force
 code --install-extension johnbillion.vscode-wordpress-hooks --force
 code --install-extension k--kato.intellij-idea-keybindings --force
