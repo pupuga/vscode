@@ -125,5 +125,38 @@
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
-	"workbench.iconTheme": "a-file-icon-vscode"
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"php.validate.enable": false,
+	"errorLens.enabled": true,
+	"errorLens.fontWeight": "normal",
+	"errorLens.fontStyleItalic": false,
+	"errorLens.onSave": true,
+	"errorLens.followCursor": "closestProblem",
+	"errorLens.gutterIconsEnabled": true,
+	"errorLens.gutterIconSize": "100%",
+	"errorLens.messageTemplate": "${message}",
+	"errorLens.severityText": {
+		"error": "✖",
+		"warning": "⚠",
+		"info": "ℹ"
+	},
+	"todo-tree.highlights.defaultHighlight": {
+		"type": "text",
+		"foreground": "yellow",
+		"background": "transparent",
+		"icon": "check",
+		"iconColour": "yellow"
+	},
+	"todo-tree.tree.showScanModeButton": false,
+	"todo-tree.general.tags": [
+		"TODO",
+		"FIXME",
+		"BUG",
+		"NOTE"
+	],
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^)\\s*($TAGS)",
+	"todo-tree.tree.showBadges": false,
+	"todo-tree.tree.showCountsInTree": true,
+	"todo-tree.tree.showIcons": true,
+	"todo-tree.tree.labelFormat": "${tag} ${after}"
 }

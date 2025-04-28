@@ -13,13 +13,23 @@ chmod +x ./install_plugins.sh
 cp -a ./.config/. ~/.config/Code/User/
 cp -a ./.vscode/. ~/.config/Code/User/
 
-# Installing JetBrainsMono-Regular.ttf font if not already installed
-FONT_NAME="JetBrainsMono-Regular.ttf"
-FONT_DIR="$HOME/Library/Fonts"
+# Directory for font installation
+FONT_FILE="JetBrainsMono-Regular.ttf"
+FONT_DIR="$HOME/.local/share/fonts/JetBrainsMono"
 
-if [ ! -f "$FONT_DIR/$FONT_NAME" ]; then
-  echo "Installing JetBrains Mono font..."
-  cp "./$FONT_NAME" "$FONT_DIR"
-else
-  echo "JetBrains Mono font is already installed."
+# Check if the font file exists in the current directory
+if [ ! -f "$FONT_FILE" ]; then
+  echo "Font $FONT_FILE not found in the current directory. Please place it here."
+  exit 1
 fi
+
+# Create the directory for the font if it doesn't exist
+mkdir -p "$FONT_DIR"
+
+# Copy the font to the directory
+cp "$FONT_FILE" "$FONT_DIR"
+
+# Update font cache
+fc-cache -fv
+
+echo "JetBrains Mono font successfully installed."
