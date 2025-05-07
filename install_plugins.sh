@@ -1,17 +1,19 @@
 #!/bin/bash
 
 code --install-extension akopachov.change-case-ex --force
+code --install-extension angular.ng-template --force
 code --install-extension atommaterial.a-file-icon-vscode --force
 code --install-extension bmewburn.vscode-intelephense-client --force
 code --install-extension bradlc.vscode-tailwindcss --force
 code --install-extension dbaeumer.vscode-eslint --force
+code --install-extension devsense.composer-php-vscode --force
 code --install-extension docker.docker --force
 code --install-extension esbenp.prettier-vscode --force
-code --install-extension finntenzor.change-case --force
 code --install-extension graphql.vscode-graphql-syntax --force
 code --install-extension johnbillion.vscode-wordpress-hooks --force
 code --install-extension k--kato.intellij-idea-keybindings --force
 code --install-extension laravel.vscode-laravel --force
+code --install-extension mansoorkhan96.php-cs-fixer --force
 code --install-extension matthiashunt.wordpress-syntax-highlighter --force
 code --install-extension mongodb.mongodb-vscode --force
 code --install-extension ms-azuretools.vscode-docker --force
@@ -29,7 +31,11 @@ code --install-extension msjsdiag.vscode-react-native-preview --force
 code --install-extension oasin.theme-dark-plus-darcula --force
 code --install-extension redhat.vscode-xml --force
 code --install-extension redhat.vscode-yaml --force
+code --install-extension sanderverschoor.vscode-symfony-ux-twig-component --force
 code --install-extension unifiedjs.vscode-mdx --force
+code --install-extension usernamehw.errorlens --force
 code --install-extension visualstudioexptteam.intellicode-api-usage-examples --force
 code --install-extension visualstudioexptteam.vscodeintellicode --force
+code --install-extension vitest.explorer --force
+code --install-extension vue.volar --force
 code --install-extension xdebug.php-debug --force
