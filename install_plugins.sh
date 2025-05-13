@@ -8,7 +8,10 @@ code --install-extension bradlc.vscode-tailwindcss --force
 code --install-extension dbaeumer.vscode-eslint --force
 code --install-extension devsense.composer-php-vscode --force
 code --install-extension docker.docker --force
+code --install-extension echoapi.echoapi-for-vscode --force
 code --install-extension esbenp.prettier-vscode --force
+code --install-extension firsttris.vscode-jest-runner --force
+code --install-extension formulahendry.auto-rename-tag --force
 code --install-extension graphql.vscode-graphql-syntax --force
 code --install-extension johnbillion.vscode-wordpress-hooks --force
 code --install-extension k--kato.intellij-idea-keybindings --force
@@ -29,6 +32,7 @@ code --install-extension ms-vscode.vscode-typescript-next --force
 code --install-extension msjsdiag.vscode-react-native --force
 code --install-extension msjsdiag.vscode-react-native-preview --force
 code --install-extension oasin.theme-dark-plus-darcula --force
+code --install-extension orta.vscode-jest --force
 code --install-extension redhat.vscode-xml --force
 code --install-extension redhat.vscode-yaml --force
 code --install-extension sanderverschoor.vscode-symfony-ux-twig-component --force
