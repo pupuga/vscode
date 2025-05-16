@@ -1,15 +1,19 @@
 #!/bin/bash
 
+code --install-extension aaron-bond.better-comments --force
+code --install-extension adpyke.codesnap --force
 code --install-extension akopachov.change-case-ex --force
 code --install-extension angular.ng-template --force
 code --install-extension atommaterial.a-file-icon-vscode --force
 code --install-extension bmewburn.vscode-intelephense-client --force
 code --install-extension bradlc.vscode-tailwindcss --force
+code --install-extension chrmarti.regex --force
 code --install-extension dbaeumer.vscode-eslint --force
 code --install-extension devsense.composer-php-vscode --force
 code --install-extension docker.docker --force
 code --install-extension echoapi.echoapi-for-vscode --force
 code --install-extension esbenp.prettier-vscode --force
+code --install-extension eugenejeon.codesnap-plus-fix --force
 code --install-extension firsttris.vscode-jest-runner --force
 code --install-extension formulahendry.auto-rename-tag --force
 code --install-extension graphql.vscode-graphql-syntax --force
@@ -18,6 +22,7 @@ code --install-extension k--kato.intellij-idea-keybindings --force
 code --install-extension laravel.vscode-laravel --force
 code --install-extension mansoorkhan96.php-cs-fixer --force
 code --install-extension matthiashunt.wordpress-syntax-highlighter --force
+code --install-extension mintlify.document --force
 code --install-extension mongodb.mongodb-vscode --force
 code --install-extension ms-azuretools.vscode-docker --force
 code --install-extension ms-playwright.playwright --force
@@ -36,10 +41,12 @@ code --install-extension orta.vscode-jest --force
 code --install-extension redhat.vscode-xml --force
 code --install-extension redhat.vscode-yaml --force
 code --install-extension sanderverschoor.vscode-symfony-ux-twig-component --force
+code --install-extension streetsidesoftware.code-spell-checker --force
 code --install-extension unifiedjs.vscode-mdx --force
 code --install-extension usernamehw.errorlens --force
 code --install-extension visualstudioexptteam.intellicode-api-usage-examples --force
 code --install-extension visualstudioexptteam.vscodeintellicode --force
 code --install-extension vitest.explorer --force
 code --install-extension vue.volar --force
+code --install-extension wallabyjs.quokka-vscode --force
 code --install-extension xdebug.php-debug --force
