@@ -1,162 +1,157 @@
 {
-	"editor.fontFamily": "JetBrains Mono, Consolas, Courier New, monospace",
-	"editor.fontSize": 13,
-	"editor.lineHeight": 22,
-	"editor.fontWeight": "300",
-	"eslint.configFile": "/home/shandor/.config/Code/User/.eslintrc.json",
-	"prettier.configPath": "/home/shandor/.config/Code/User/.prettierrc",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"editor.inlineSuggest.enabled": true,
-	"editor.bracketPairColorization.enabled": true,
-	"editor.guides.bracketPairs": "active",
-	"editor.minimap.enabled": false,
-	"editor.stickyScroll.enabled": false,
-	"editor.suggestSelection": "first",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": "explicit",
-		"source.organizeImports": "explicit"
-	},
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"name": "Disable italic for all relevant scopes",
-				"scope": [
-					"comment",
-					"keyword",
-					"keyword.control",
-					"storage",
-					"storage.modifier",
-					"storage.type",
-					"variable.language",
-					"variable.language.super",
-					"variable.language.this",
-					"entity.name.type",
-					"entity.other.attribute-name",
-					"meta.import",
-					"meta.definition.variable",
-					"markup.italic",
-					"markup.quote",
-					"markup.changed",
-					"markup.deleted",
-					"markup.inserted",
-					"punctuation.definition.comment",
-					"keyword.operator",
-					"keyword.other.type",
-					"storage.modifier.import",
-					"storage.modifier.package",
-					"storage.type.built-in",
-					"storage.type.function.arrow",
-					"storage.type.generic",
-					"storage.type.java",
-					"storage.type.primitive"
-				],
-				"settings": {
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "Disable italic for code symbols",
-				"scope": [
-					"variable",
-					"entity.name.function",
-					"entity.name.class",
-					"entity.name.namespace",
-					"property",
-					"parameter",
-					"string",
-					"number",
-					"boolean",
-					"operator"
-				],
-				"settings": {
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "Disable italic for layer and LAYERS",
-				"scope": ["variable.other.constant", "variable.other.readwrite"],
-				"settings": {
-					"fontStyle": ""
-				}
-			},
-			{
-				"name": "Disable italic for length property",
-				"scope": ["property.readonly"],
-				"settings": {
-					"fontStyle": ""
-				}
-			}
-		]
-	},
-	"explorer.confirmDelete": false,
-	"files.autoSave": "afterDelay",
-	"html.hover.documentation": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"javascript.preferences.quoteStyle": "single",
-	"typescript.preferences.quoteStyle": "single",
-	"javascript.format.semicolons": "remove",
-	"typescript.format.semicolons": "remove",
-	"prettier.singleQuote": true,
-	"prettier.jsxSingleQuote": true,
-	"prettier.useTabs": true,
-	"prettier.semi": false,
-	"workbench.startupEditor": "none",
-	"window.menuBarVisibility": "toggle",
-	"window.openFilesInNewWindow": "on",
-	"workbench.editor.enablePreview": false,
-	"workbench.colorTheme": "Dark Plus Darcula (IntelliJ imitation)",
-	"multiDiffEditor.experimental.enabled": true,
-	"diffEditor.experimental.showMoves": true,
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		"typescript",
-		"typescriptreact"
-	],
-	"eslint.alwaysShowStatus": true,
-	"[php]": {
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-	},
-	"intelephense.diagnostics.enable": true,
-	"intelephense.format.enable": true,
-	"intelephense.environment.phpVersion": "8.1",
-	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"workbench.iconTheme": "a-file-icon-vscode",
-	"php.validate.enable": false,
-	"errorLens.enabled": true,
-	"errorLens.fontWeight": "normal",
-	"errorLens.fontStyleItalic": false,
-	"errorLens.onSave": true,
-	"errorLens.followCursor": "closestProblem",
-	"errorLens.gutterIconsEnabled": true,
-	"errorLens.gutterIconSize": "100%",
-	"errorLens.messageTemplate": "${message}",
-	"errorLens.severityText": {
-		"error": "✖",
-		"warning": "⚠",
-		"info": "ℹ"
-	},
-	"todo-tree.highlights.defaultHighlight": {
-		"type": "text",
-		"foreground": "yellow",
-		"background": "transparent",
-		"icon": "check",
-		"iconColour": "yellow"
-	},
-	"todo-tree.tree.showScanModeButton": false,
-	"todo-tree.general.tags": [
-		"TODO",
-		"FIXME",
-		"BUG",
-		"NOTE"
-	],
-	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^)\\s*($TAGS)",
-	"todo-tree.tree.showBadges": false,
-	"todo-tree.tree.showCountsInTree": true,
-	"todo-tree.tree.showIcons": true,
-	"todo-tree.tree.labelFormat": "${tag} ${after}"
+  "editor.fontFamily": "JetBrains Mono, Consolas, Courier New, monospace",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "300",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Disable italic for all relevant scopes",
+        "scope": [
+          "comment", "keyword", "keyword.control", "storage",
+          "storage.modifier", "storage.type", "variable.language",
+          "variable.language.super", "variable.language.this",
+          "entity.name.type", "entity.other.attribute-name", "meta.import",
+          "meta.definition.variable", "markup.italic", "markup.quote",
+          "markup.changed", "markup.deleted", "markup.inserted",
+          "punctuation.definition.comment", "keyword.operator",
+          "keyword.other.type", "storage.modifier.import",
+          "storage.modifier.package", "storage.type.built-in",
+          "storage.type.function.arrow", "storage.type.generic",
+          "storage.type.java", "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Disable italic for code symbols",
+        "scope": [
+          "variable", "entity.name.function", "entity.name.class",
+          "entity.name.namespace", "property", "parameter",
+          "string", "number", "boolean", "operator"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Disable italic for layer and LAYERS",
+        "scope": ["variable.other.constant", "variable.other.readwrite"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "Disable italic for length property",
+        "scope": ["property.readonly"],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "html.hover.documentation": false,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+
+  "prettier.configPath": "/home/shandor/.config/Code/User/.prettierrc",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.useTabs": true,
+  "prettier.semi": false,
+
+  "workbench.startupEditor": "none",
+  "window.menuBarVisibility": "toggle",
+  "window.openFilesInNewWindow": "on",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "Dark Plus Darcula (IntelliJ imitation)",
+  "workbench.iconTheme": "a-file-icon-vscode",
+
+  "multiDiffEditor.experimental.enabled": true,
+  "diffEditor.experimental.showMoves": true,
+
+  "eslint.configFile": "/home/shandor/.config/Code/User/.eslintrc.json",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.alwaysShowStatus": true,
+
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "intelephense.diagnostics.enable": true,
+  "intelephense.format.enable": true,
+  "intelephense.environment.phpVersion": "8.1",
+
+  "php.validate.enable": false,
+
+  "php-cs-fixer.executablePath": "php-cs-fixer",
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.rules": {
+    "@PSR12": true,
+    "array_syntax": { "syntax": "short" },
+    "binary_operator_spaces": { "default": "align_single_space_minimal" },
+    "no_unused_imports": true
+  },
+
+  "errorLens.enabled": true,
+  "errorLens.fontWeight": "normal",
+  "errorLens.fontStyleItalic": false,
+  "errorLens.onSave": true,
+  "errorLens.followCursor": "closestProblem",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSize": "100%",
+  "errorLens.messageTemplate": "${message}",
+  "errorLens.severityText": {
+    "error": "✖",
+    "warning": "⚠",
+    "info": "ℹ"
+  },
+
+  "jest.autoRun": {
+    "watch": true,
+    "onSave": "test-src-file"
+  },
+
+  "vue.features": {
+    "diagnostics": true,
+    "codeActions": true,
+    "documentSymbols": true
+  },
+
+  "cSpell.language": "en",
+  "cSpell.enabled": true,
+
+  "graphql.useSchemaFileDefinitions": true,
+
+  "better-comments.multilineComments": true,
+
+  "extensions.ignoreRecommendations": true
 }
